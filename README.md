@@ -5,4 +5,3 @@ Since no Machine Learning techniques were used, the reconnaissance value is not 
 
 ### Technologies used: Python, OpenCV, tkinter library
 
-![Alt text](https://www.leonardcohen.it/wp-content/uploads/2014/08/Leonard-Cohen-testi-e-traduzioni.jpg "Optional text")
