@@ -5,3 +5,4 @@ Since no Machine Learning techniques were used, the reconnaissance value is not 
 
 ### Technologies used: Python, OpenCV, tkinter library
 
+![Alt text](airport-2397034_960_720.jpg)
