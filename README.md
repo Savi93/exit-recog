@@ -4,3 +4,5 @@ The purpose of the developed tool is to recognize the presence or the absence of
 Since no Machine Learning techniques were used, the reconnaissance value is not optimal; at the actual state, the tool is able to recognize correctly the presence or absence in 70-75% of the images that were collected as samples. In the other 20-25% of sample images, false positive and false negative results may be returned.
 
 ### Technologies used: Python, OpenCV, tkinter library
+
+![Alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPXo1ReRCYhfNcAoIhnx0L46xach6a8BIQhg&usqp=CAU" Optional Title")
