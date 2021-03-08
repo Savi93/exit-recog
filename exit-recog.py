@@ -146,13 +146,17 @@ def check_direction(arrow_point, center_point):
     if(dist_x > dist_y):
         if(arrow_x - center_x < 0):
         	playsound('left.mp3', block = False)
+        	tkinter.messagebox.showinfo(title=None, message="Emergency exit arrow is pointing left.")
         else:
             playsound('right.mp3', block = False)
+            tkinter.messagebox.showinfo(title=None, message="Emergency exit arrow is pointing right.")
     else:
         if(arrow_y - center_y < 0):
             playsound('up.mp3', block = False)
+            tkinter.messagebox.showinfo(title=None, message="Emergency exit arrow is pointing up.")
         else:
             playsound('down.mp3', block = False)
+            tkinter.messagebox.showinfo(title=None, message="Emergency exit arrow is pointing down.")
             
 def startProcessing(path):
 	#Loads the image.
@@ -236,6 +240,7 @@ def startProcessing(path):
 	except:
 		noProcessedImageGUI()
 		playsound('not-found.mp3', block = False)
+		tkinter.messagebox.showinfo(title=None, message="No emergency exit was detected in the image..")
 
 
 ############################# GUI STARTS HERE ##################################
